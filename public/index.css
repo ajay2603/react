@@ -1,0 +1,58 @@
+.person-cont {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  margin: 30px;
+  border-radius: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+.person {
+  width: 100%;
+  background-color: aqua;
+  position: relative;
+  padding: 10px;
+  border-radius: 30px 30px 0px 0px;
+}
+
+.per-det {
+  padding: 10px;
+  width: 100%;
+  background-color: rgb(2, 185, 252);
+  border-radius: 0px 0px 30px 30px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  margin: 10px;
+}
+
+img {
+  width: 100px;
+  aspect-ratio: 3/3;
+  border-radius: 50%;
+  border: 5px solid white;
+  display: flex;
+}
+
+.image-cont {
+  display: inline;
+  width: fit-content;
+  height: fit-content;
+  float: right;
+  position: absolute;
+  right: 20px;
+  bottom: -40px;
+  margin-right: 20px;
+}
+
+.app-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
